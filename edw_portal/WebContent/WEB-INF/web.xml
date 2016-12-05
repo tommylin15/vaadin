@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+    
+	<context-param>
+    	<description>Vaadin production mode</description>
+    	<param-name>productionMode</param-name>
+    	<param-value>false</param-value>
+  	</context-param>
+
+  
+  <resource-ref>
+    <description>DB Connection</description>
+    <res-ref-name>jdbc/defaultPool</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <context-param>
+    <param-name>log4j-init-prop</param-name>
+    <param-value>properites/log4j.properties</param-value>
+  </context-param>
+  
+  <listener>
+    <description>log4j 啟始程式</description>
+    <listener-class>com.scsb.listener.Log4JListener</listener-class>
+  </listener>
+  <context-param>
+  
+    <param-name>system-file</param-name>
+    <param-value>properites/system.properties</param-value>
+  </context-param>
+  <listener>
+    <description>共通屬性預先載入程式</description>
+    <listener-class>com.scsb.listener.LoadPropertyListener</listener-class>
+  </listener>
+  <listener>
+    <description>ConnectinoPool 啟始程式</description>
+    <listener-class>com.scsb.listener.ConnectionPoolListener</listener-class>
+  </listener>
+  <context-param>
+    <param-name>hashtable-file</param-name>
+    <param-value>properites/hashtable.properties</param-value>
+  </context-param>
+  <listener>
+    <description>HashTable預先載入程式</description>
+    <listener-class>com.scsb.listener.LoadHashTableListener</listener-class>
+  </listener>
+  </web-app>

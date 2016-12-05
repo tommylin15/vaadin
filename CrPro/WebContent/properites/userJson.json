@@ -1,0 +1,20 @@
+[
+{id:"34711S"    ,password:"tommylin15" 
+				,haveExplorer="Y" ,explorerUpLoad="Y" ,explorerEdit="Y" 
+				,haveCrpro="Y"
+				,haveSchedule="Y"
+				,haveEtlLog="Y" ,etlEdit="Y"
+ }
+,{id:"26654S"    ,password:"26654S" 
+				,haveExplorer="Y" ,explorerUpLoad="Y" ,explorerEdit="Y" 
+				,haveCrpro="N"
+				,haveSchedule="N"
+				,haveEtlLog="Y" ,etlEdit="Y"
+ }
+,{id:"OP001S"    ,password:"opcheck" 
+				,haveExplorer="N" ,explorerUpLoad="N" ,explorerEdit="N" 
+				,haveCrpro="N"
+				,haveSchedule="N"
+				,haveEtlLog="Y" ,etlEdit="N"
+ }  
+] 

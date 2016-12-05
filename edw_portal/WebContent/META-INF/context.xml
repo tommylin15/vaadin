@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/defaultPool"
+          auth="Container"
+          type="javax.sql.DataSource"
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+          driverClassName="com.teradata.jdbc.TeraDriver"
+          url="jdbc:teradata://10.10.2.192/DATABASE=edw_portal,DB_PORT=3049,TMODE=ANSI,CHARSET=UTF8"
+          username="tommy"
+          password="tommy"
+          
+        minIdle="2"			  
+        maxIdle="3"
+        maxActive="100"
+        maxWait="1000"
+        logAbandoned="true"
+        removeAbandoned="true"
+        removeAbandonedTimeout="60"
+        validationQuery="Select current_date" 
+        timeBetweenEvictionRunsMillis="180000"   
+        jmxEnabled="true"
+        connectionProperties=""
+        validationInterval="3000"          
+/>  
+</Context>

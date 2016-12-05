@@ -1,0 +1,113 @@
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+$v-font-size: 16px;
+$v-font-weight: 300;
+$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+$v-border: 1px solid (v-shade 0.7);
+$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+$v-app-background-color: $v-background-color;
+
+// Affects the visual appearance of all components
+$v-gradient: v-linear 8%;
+$v-bevel-depth: 30%;
+$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+$v-friendly-color: #2c9720;
+$v-error-indicator-color: #ed473b;
+
+$v-color1:#fff;           //FFF
+$v-color2:#D9E7F9;  //col-1
+$v-color3:#E7E7E7;  //col-2
+$v-color4:#F9BCBB; //hover
+$v-color5:#2D6BA5; //header-bg
+$v-color6:#FFE6E6; //tool-bar
+@import "../valo/valo.scss";
+
+@mixin scsb_theme {
+  @include valo;
+
+	/*background*********************************************************************/
+	.scsbBg0 {
+		background:$v-focus-color;
+	}	
+	.scsbBg1 {
+		background:$v-color1;
+		border-bottom: 1px ;
+		border-color: #000;
+		border-bottom-color: #000;
+	}	
+	
+	.scsbBg2 {
+		background:$v-color2;
+	}	
+	.scsbBg2:hover {
+		background:$v-color4;
+	}		
+	.scsbBg3 {
+		background:$v-color3;
+	}	
+	.scsbBg3:hover {
+		background:$v-color4;
+	}	
+	.scsbBg5 {
+		background:$v-color5;
+	}	
+	.scsbBg6 {
+		background:$v-color6;
+	}		
+
+	/*align*******************************************************************************/
+	.textLeft{
+		text-align: left;
+	}
+	.textCenter{
+		text-align: center;
+	}
+	.textRight{
+		text-align: right;
+	}
+
+	/*filtertable*********************************************************************/
+	.filtertable .v-table-header-wrap {
+	      height: 30px;
+	      border: 0px;
+	      border-bottom: 0px ;
+	      background: $v-color5;
+	      color: $v-color1;
+	}
+	.filtertable .table .v-table-caption-container {
+	      padding: 0px 0px 0px 0px;
+	}
+	
+	.filtertable .v-table-body {
+		height: 20px;
+	    border: 0px;
+	    border-bottom: 0px ;
+	}
+	 
+	.filtertable .v-table-row{
+	      background: $v-color2;
+	} 
+	 
+	.filtertable .v-table-row-odd {
+	      background: $v-color3;
+	}
+	 
+	.filtertable .v-table-row:hover {
+	      background: $v-color4;
+	}
+	 
+	.filtertable .v-table-row-odd:hover {
+	      background: $v-color4;
+	}
+  
+}

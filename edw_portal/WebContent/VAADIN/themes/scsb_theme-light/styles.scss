@@ -1,0 +1,6 @@
+@import "variables";
+@import "../scsb_theme/scsb_theme";
+
+.scsb_theme-light {
+   @include scsb_theme;
+}

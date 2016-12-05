@@ -1,0 +1,108 @@
+.blueBg1{
+	background-color:#1E486F;
+}
+
+.blueBg2{
+	background-color:#6BA5D8;
+}
+
+.notification {
+  background-color: rgba(128, 0, 0, 0.5) !important;
+}
+
+.notification:hover {
+  background-color: rgba(128, 0, 0, 0.75) !important;
+}
+
+.notification .fancy-notif-title {
+  font-family: cursive;
+}
+
+.notification .fancy-notif-desc {
+  font-family: monospace;
+}
+
+/**button***************************************************************************/
+.v-button-wrap{ cursor: pointer; }
+.menu .v-button-wrap ,
+.menu .v-button{
+	background: #2D6BA5 ;
+	color: #F0F0F0;            /*字的顏色*/
+	text-shadow: 0 0 0 #F0F0F0;/*取消陰影*/
+	font-size: 16px; 
+}
+
+.button .v-button-wrap,
+.button .v-button{
+	background: #2D6BA5 ;
+	color: #F0F0F0;            /*字的顏色*/
+	text-shadow: 0 0 0 #F0F0F0;/*取消陰影*/
+	font-weight:bold;
+	font-size: 16px;
+}
+
+.buttonX .v-button-wrap,
+.buttonX .v-button{
+	background: #D7554F ;
+	color: #F0F0F0;            /*字的顏色*/
+	text-shadow: 0 0 0 #F0F0F0;/*取消陰影*/
+	font-weight:bold;
+	font-size: 16px;
+}
+
+/*filtertable*********************************************************************/
+.filtertable .v-table-header-wrap {
+      height: 30px;
+      border: 1px;
+      border-bottom: 2px solid #003A75;
+      color: #ffffff;
+      background: #003A75;
+}
+
+.filtertable .table .v-table-caption-container {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff;
+      padding: 0px 0px 0px 0px;
+}
+
+.filtertable .v-table-body {
+	height: 20px;
+    border: 1px;
+}
+ 
+.filtertable .v-table-row{
+      background: #D9E7F9;
+} 
+ 
+.filtertable .v-table-row-odd {
+      background: #F1F1F1;
+}
+ 
+.filtertable .v-table-row:hover {
+      background: #F9BCBB;
+}
+ 
+.filtertable .v-table-row-odd:hover {
+      background: #F9BCBB;
+}
+ 
+.filtertable .v-table .v-selected {
+      background: #3d80df;
+}
+ 
+.filtertable .v-table-cell-content {
+      padding: 2px 2px 2px 2px;
+      line-height: normal;
+      font-size: 16px;
+}
+/***menuBlue************************************************/
+.menuBlue{
+      background: #D9E7F9;
+}
+.menuRed{
+      background: #FFD9D9;
+}
+.menuWhite{
+      background: #FFFFFF;
+}

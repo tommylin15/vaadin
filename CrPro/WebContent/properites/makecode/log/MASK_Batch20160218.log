@@ -1,0 +1,62 @@
+20160218 01:44:18===================EtlMaskCode Running ....=================
+20160218 01:44:18==載入config.json ....
+20160218 01:44:18==載入DBconnection.INI ....
+20160218 01:44:18===============================================
+20160218 01:44:18==sid:wmsDB2wmsDB
+20160218 01:44:18==idb:wmsDB
+20160218 01:44:18==odb:wmsDB
+20160218 01:44:19==chooseDB:D:/application/GitHome/git/CrPro/WebContent/properites/makecode/wmsDB2wmsDB.INI
+20160218 01:44:19==isRun:Y
+20160218 01:44:19==Query From Table:wms.CUSTOMERS
+20160218 01:44:19==Insert To Table:wms.CUSTOMERS2
+20160218 01:44:19==fields mask Type C :'CUS_ENAME','CUS_NAME'
+20160218 01:44:19==fields mask Type E :'CUS_CODE'
+20160218 01:44:27==sql: select * from wms.CUSTOMERS
+20160218 01:44:27==wms.CUSTOMERS 轉檔至 wms.CUSTOMERS2 結束
+20160218 01:45:50===================EtlMaskCode Running ....=================
+20160218 01:45:50==載入config.json ....
+20160218 01:45:50==載入DBconnection.INI ....
+20160218 01:45:50===============================================
+20160218 01:45:50==sid:wmsDB2wmsDB
+20160218 01:45:50==idb:wmsDB
+20160218 01:45:50==odb:wmsDB
+20160218 01:45:51==chooseDB:D:/application/GitHome/git/CrPro/WebContent/properites/makecode/wmsDB2wmsDB.INI
+20160218 01:45:51==isRun:Y
+20160218 01:45:51==Query From Table:wms.CUSTOMERS
+20160218 01:45:51==Insert To Table:wms.CUSTOMERS2
+20160218 01:45:51==fields mask Type C :'CUS_ENAME','CUS_NAME'
+20160218 01:45:51==fields mask Type E :'CUS_CODE'
+20160218 01:45:51==sql: select * from wms.CUSTOMERS
+20160218 01:45:51==wms.CUSTOMERS 轉檔至 wms.CUSTOMERS2 結束,總筆數:100
+20160218 01:48:32===================EtlMaskCode Running ....=================
+20160218 01:48:32==載入config.json ....
+20160218 01:48:33==載入DBconnection.INI ....
+20160218 01:48:33===============================================
+20160218 01:48:33==sid:wmsDB2wmsDB
+20160218 01:48:33==idb:wmsDB
+20160218 01:48:33==odb:wmsDB
+20160218 01:48:33==chooseDB:D:/application/GitHome/git/CrPro/WebContent/properites/makecode/wmsDB2wmsDB.INI
+20160218 01:48:33==isRun:Y
+20160218 01:48:33==Query From Table:wms.CUSTOMERS
+20160218 01:48:33==Insert To Table:wms.CUSTOMERS2
+20160218 01:48:33==fields mask Type C :'CUS_ENAME','CUS_NAME'
+20160218 01:48:33==fields mask Type E :'CUS_CODE'
+20160218 01:48:33==sql: select * from wms.CUSTOMERS
+20160218 01:48:33==wms.CUSTOMERS2's writting :200
+20160218 01:48:33==wms.CUSTOMERS 轉檔至 wms.CUSTOMERS2 結束,總筆數:200
+20160218 01:49:23===================EtlMaskCode Running ....=================
+20160218 01:49:23==載入config.json ....
+20160218 01:49:23==載入DBconnection.INI ....
+20160218 01:49:23===============================================
+20160218 01:49:23==sid:wmsDB2wmsDB
+20160218 01:49:23==idb:wmsDB
+20160218 01:49:23==odb:wmsDB
+20160218 01:49:23==chooseDB:D:/application/GitHome/git/CrPro/WebContent/properites/makecode/wmsDB2wmsDB.INI
+20160218 01:49:23==isRun:Y
+20160218 01:49:23==Query From Table:wms.CUSTOMERS
+20160218 01:49:23==Insert To Table:wms.CUSTOMERS2
+20160218 01:49:23==fields mask Type C :'CUS_ENAME','CUS_NAME'
+20160218 01:49:23==fields mask Type E :'CUS_CODE'
+20160218 01:49:23==sql: select * from wms.CUSTOMERS
+20160218 01:49:24==wms.CUSTOMERS2's writting :100
+20160218 01:49:24==wms.CUSTOMERS 轉檔至 wms.CUSTOMERS2 結束,總筆數:100

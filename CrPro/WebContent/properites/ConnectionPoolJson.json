@@ -1,0 +1,7 @@
+[
+  {"DBPool":"defaultPool"	,"DBOwner":"sas3" 	,"DBType":"jdbc"			,"Running":"TRUE"			,"EtlLog" :"N"	}
+, {"DBPool":"smaDB" 			,"DBOwner":"etl" 		,"DBType":"jdbc"			,"Running":"TRUE"			,"EtlLog" :"Y"	}
+,{"DBPool":"wmsDB"			,"DBOwner":"etl" 		,"DBType":"jdbc"			,"Running":"TRUE"			,"EtlLog" :"Y"	}
+,{"DBPool":"poolDB"			,"DBOwner":"pool" 		,"DBType":"jdbc"			,"Running":"TRUE"			,"EtlLog" :"N"	}
+,{"DBPool":"marketDB"			,"DBOwner":"market" 		,"DBType":"jdbc"			,"Running":"TRUE"			,"EtlLog" :"N"	}
+] 

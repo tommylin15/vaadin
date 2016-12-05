@@ -1,0 +1,12 @@
+[
+ {extension:".*"          ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".sas"        ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".txt"        ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".log"        ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".csv"        ,isList:"N"	,onlineEdit:"N"}
+,{extension:".html"       ,isList:"N"	,onlineEdit:"N"}
+,{extension:".java"       ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".jsp" 		  ,isList:"Y"	,onlineEdit:"N"}
+,{extension:".json"       ,isList:"N"	,onlineEdit:"Y"}
+,{extension:".properties" ,isList:"N"	,onlineEdit:"N"}
+] 

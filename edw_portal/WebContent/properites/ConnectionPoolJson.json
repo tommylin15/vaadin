@@ -1,0 +1,3 @@
+[
+  {"DBPool":"defaultPool"	,"DBOwner":"edw_portal" 	,"DBType":"teradata"			,"Running":"TRUE"			,"EtlLog" :"N"	}
+] 

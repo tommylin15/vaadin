@@ -1,0 +1,6 @@
+[
+ {id:"65web"      ,value:"c:/inetpub/" ,haveNext:"Y"	   }
+,{id:"65sas"   ,value:"d:/sas/"     ,haveNext:"Y"}
+,{id:"65application"   ,value:"d:/application/"     ,haveNext:"N"}
+
+] 

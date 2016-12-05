@@ -1,0 +1,6 @@
+[
+ {"id":"65web"      ,"value":"d:/sasbackup/ibspgm"	   ,"readonly":"Y"}
+,{"id":"65ibspgm"   ,"value":"d:/application/" ,"readonly":"Y"}
+,{"id":"65backup"   ,"value":"d:/ftp/backup/"   ,"readonly":"Y"}
+
+] 
